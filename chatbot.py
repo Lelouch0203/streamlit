@@ -30,3 +30,6 @@ try:
     with st.chat_message('assistant'):
         st.write(response)
     st.session_state.message.append({'role':'user','content':response})
+
+except:
+    pass
